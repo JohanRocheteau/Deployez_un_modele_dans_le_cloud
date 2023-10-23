@@ -3,7 +3,7 @@
 ## Mise en situation :
 
 - **Entreprise :**  Fruits!
-- **Logo :**
+- **Logo :** ![Logo](PhotosReadme/Logo.png)
 - **Activité :** Préserver la biodiversité des fruits via des traitements spécifiques pour chaque espèce de fruits en développant des robots cueilleurs intelligents.
 - **But :**
     - Mettre à disposition du grand public une application mobile qui permettrait aux utilisateurs de prendre en photo un fruit et d'obtenir des informations sur ce fruit.
@@ -29,6 +29,9 @@
     - Enregistrement des liens pour charger les images + récupération des noms de dossiers (noms des fruits)
     - Ouverture du modèle de réseau de neurones + suppression des deux dernières étapes
     - Extraction des features via le modèle MobilNetV2
-    - Reduction des features via PCA de pyspark
+    - Reduction des features via PCA de pyspark ![Logo](PhotosReadme/LogoSpark.png)
     - Enregistrement des données extraites au format parquet
-    - Passage sur un modèle AWS de type PAAS (EMR EC2) avec enregistrement des images et des donnnées sur S3     
+    - Passage sur un modèle AWS de type PAAS (EMR EC2) avec enregistrement des images et des donnnées sur S3
+      ![logo](PhotosReadme/LogoAWS.png)
+      ![logo](PhotosReadme/LogoEMR.png)
+      ![logo](PhotosReadme/LogoS3.png)     
