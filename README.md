@@ -32,6 +32,7 @@
     - Reduction des features via PCA de pyspark ![Logo](PhotosReadme/LogoSpark.png)
     - Enregistrement des données extraites au format parquet
     - Passage sur un modèle AWS de type PAAS (EMR EC2) avec enregistrement des images et des donnnées sur S3
+      
       ![logo](PhotosReadme/LogoAWS.png)
       ![logo](PhotosReadme/LogoEMR.png)
       ![logo](PhotosReadme/LogoS3.png)     
