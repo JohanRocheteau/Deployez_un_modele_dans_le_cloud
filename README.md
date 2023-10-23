@@ -21,4 +21,14 @@
     - Ajouter une étape de réduction de dimension de type PCA en PySpark.
     - Respecter les contraintes du RGPD : localisation = Paris
 
-## Réalisations :**
+## Réalisations :
+
+- **Librairies principales :** Pyspark, PIL, Tensorflow
+- **Etapes réalisées :**
+    - Ouvertures des images
+    - Enregistrement des liens pour charger les images + récupération des noms de dossiers (noms des fruits)
+    - Ouverture du modèle de réseau de neurones + suppression des deux dernières étapes
+    - Extraction des features via le modèle MobilNetV2
+    - Reduction des features via PCA de pyspark
+    - Enregistrement des données extraites au format parquet
+    - Passage sur un modèle AWS de type PAAS (EMR EC2) avec enregistrement des images et des donnnées sur S3     
